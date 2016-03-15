@@ -13,7 +13,7 @@ var runTime = function(){
       for (var i = 0; i < alarms.length; i++) {
         var singleAlarmTime = $(alarms[i]).attr("time");
         if(globalTime >= singleAlarmTime){
-          $(alarms[i]).html(singleAlarmTime+" WAKE UP!");
+          $(alarms[i]).html(singleAlarmTime+" WAKE UP! <img src=img/alarm_clock.gif>");
 
         }
       }
